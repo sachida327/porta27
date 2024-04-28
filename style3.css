@@ -1,16 +1,18 @@
+
+
 body {
   font-family: Arial, sans-serif;
 height: 100%;
-width:100vw;
+width:100%;
   margin: 0%;
- padding: 30px;
+ padding: 10px;
  background-color: rgba(216, 236, 0, 0);
 }
 
 header {
   height: 100%;
  
-  width: 90%;
+  width: 100%;
   background-color: #e78f8f;
   color: #000000;
   padding: 20px;
@@ -54,7 +56,7 @@ section h2 {
 }
 
 .instructor img {
-  width: 30%;
+  width: 50%;
   height: 50%;
   border-radius: 50%;
   margin-bottom: 10px;
@@ -63,39 +65,12 @@ section h2 {
 
 @media  (max-width:500px){
   .logo img{
-    width: 10%;
+    width: 100%;
   }
 
-  .main {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    width: 100%;
-    background-color: rgb(250, 250, 250);
-    color: #000000;
-    padding: 15px;
-    border-radius: 5px;
-    border: 2px solid rgb(2, 20, 4);
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 1.35em;
-}
+  
+} 
 
-}
-.main
-{
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  width: 95%;
-  background-color: rgb(250, 250, 250);
-  color:#000000;
-  padding:15px;
-  border-radius:5px;
-  border:2px solid rgb(2, 20, 4);
-font-family: Georgia, 'Times New Roman', Times, serif;
-font-size: 1.35em;
-
-}
 nav ul {
   font-size:1.5em;
   font-weight:500 ;
